@@ -52,8 +52,9 @@ This document tracks who contributed to the Linux Install Day event, what they w
 
   * Assisted attendees with installs
   * Troubleshooting and general support
-
+```
 Names
+```
 
 ---
 
@@ -62,13 +63,21 @@ Names
 This section helps when roles overlap.
 
 * **Copywriting:** 
+```
 @kip
+```
 * **Linux Support / Distros:** 
+```
 Names
+```
 * **Outreach / Promotion:** 
+```
 Names
+```
 * **Photography / Media:** 
+```
 Names
+```
 
 ---
 
