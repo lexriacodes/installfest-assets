@@ -91,5 +91,5 @@ No pressure, no gatekeeping—just helping people learn and try something new.
 
 For questions, collaboration, or volunteering, reach out via:
 
-* JaxLUG Discord: @Chris, @another.alex
+* JaxLUG Discord: `@Chris @anotheralexx`
 * [tbd signup link]
