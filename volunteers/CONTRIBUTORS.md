@@ -2,7 +2,7 @@
 
 ## 🧭 Purpose
 
-This document tracks who contributed to the Linux Install Day event, what they worked on, and where to go for questions or updates.
+This document tracks who contributed to the Linux Install Fest event, what they worked on, and where to go for questions or updates.
 
 ---
 
@@ -93,5 +93,5 @@ Names
 
 * Add yourself under the relevant section(s)
 * Keep descriptions short and specific
-* Use GitHub handles if possible for traceability
+* Use Discord handles if possible for traceability
 * PRs welcome for updates
