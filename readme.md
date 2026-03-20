@@ -47,7 +47,7 @@ Logos, color palettes, and design assets.
 
 ### `/volunteers`
 
-[TBD] Internal docs for organizers and volunteers (setup, roles, troubleshooting tips).
+Internal docs for organizers and volunteers (setup, roles, troubleshooting tips).
 
 ## 🛠️ Contributing
 
