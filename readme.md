@@ -31,7 +31,7 @@ Print-ready flyers and variations for distribution across the city.
 
 ### `/social`
 
-Graphics and copy for social media promotion.
+[TBD] Graphics and copy for social media promotion.
 
 ### `/copy`
 
@@ -43,11 +43,11 @@ Logos, color palettes, and design assets.
 
 ### `/guides`
 
-Optional install guides, prep checklists, and day-of instructions for attendees.
+[TBD] Optional install guides, prep checklists, and day-of instructions for attendees.
 
 ### `/volunteers`
 
-Internal docs for organizers and volunteers (setup, roles, troubleshooting tips).
+[TBD] Internal docs for organizers and volunteers (setup, roles, troubleshooting tips).
 
 ## 🛠️ Contributing
 
