@@ -1,5 +1,20 @@
 ## Input
 
+### march 21
+
+We have 2 websites
+installfest.jaxlug.net
+jaxinstallfest.com
+The second one is the preferred one because it's simpler and it's not a child domain
+
+@Chris
+
+@Chris   Alex  made a few flyers for the event,  and a few other documents you should review.   i like the flyer #1  because is Black and White and that is what we are going to print in mass.    But we will need a few color ones, to be posted in special places.  Like the Public Libraries, Tech stores, starV centers and a few other places.   no more than 20 color flyers.
+
+@R4m0n 
+
+---
+
 ### march 20
 
 some  semisolicited feedback on this:
