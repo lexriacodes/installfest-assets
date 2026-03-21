@@ -47,13 +47,7 @@ This document tracks who contributed to the Linux Install Fest event, what they 
   * Prepared install media (USBs, ISOs)
   * Hardware coordination (routers, switches, etc.)
 
-### 🤝 Volunteers / Day-Of Support
-
-  * Assisted attendees with installs
-  * Troubleshooting and general support
-```
-Names
-```
+---
 
 ## 📦 Contribution Areas (Cross-Team)
 
@@ -64,28 +58,23 @@ This section helps when roles overlap.
 @kip
 ```
 
-* **Linux Support / Distros:** 
-```
-Names
-```
-
-  * Fedora
-  * ArchLinux
-  * KinuxMint
-  * Ubuntu
-  * Suse
-  * Debian
-  * PuppyLinux
-  * AlmaLinux
-  * POP OS
-  * Alpine
-
 * **Outreach / Promotion:** 
 ```
 Names
 ```
 
 * **Photography / Media:** 
+```
+Names
+```
+
+### 🤝 Volunteers / Day-Of Support
+  * Assisted attendees with installs
+  * Troubleshooting and general support
+  * Linux Support / Distros:
+
+  > Fedora, ArchLinux, KinuxMint, Ubuntu, Suse, Debian, PuppyLinux, AlmaLinux, POP OS, Alpine
+
 ```
 Names
 ```
