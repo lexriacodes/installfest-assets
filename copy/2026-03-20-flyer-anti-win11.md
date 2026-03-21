@@ -48,7 +48,11 @@ Backup any important data.
 * No strings attached
 
 ## Footer
-**March 23, 2026 | 11am-5pm**
-**UNIVERSITY PARK BRANCH LIBRARY**
-COMMUNITY ROOM A&B
+
+March 23, 2026 | 11am-5pm
+
+University Park Branch Library
+
+Community Room A&B
+
 installfest.jaxlug.net
