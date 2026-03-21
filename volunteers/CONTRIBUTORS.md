@@ -67,8 +67,16 @@ This section helps when roles overlap.
 @kip
 ```
 * **Linux Support / Distros:** 
-```
-Names
+Fedora
+ArchLinux
+KinuxMint
+Ubuntu
+Suse
+Debian
+PuppyLinux
+AlmaLinux
+POP OS
+Alpine
 ```
 * **Outreach / Promotion:** 
 ```
