@@ -4,7 +4,16 @@
 
 This document tracks who contributed to the Linux Install Fest event, what they worked on, and where to go for questions or updates.
 
+### 🔄 How to Update
+
+  * Add yourself under the relevant section(s)
+  * Keep descriptions short and specific
+  * Use Discord handles if possible for traceability
+  * PRs welcome for updates
+
 ---
+
+## 👥 Team Overview
 
 ### 📍 Event Coordination
 
@@ -14,10 +23,6 @@ This document tracks who contributed to the Linux Install Fest event, what they 
   * Managed scheduling and approvals
   * Oversaw logistics and event flow
 
----
-
-## 👥 Team Overview
-
 ### 🧑‍💻 Website
 
 * **Ramon `@R4m0n`**
@@ -25,8 +30,6 @@ This document tracks who contributed to the Linux Install Fest event, what they 
   * Built site structure
   * Implemented contact/booking flow
   * Managed hosting + deployment
-
----
 
 ### 🎨 Design & Marketing
 
@@ -36,8 +39,6 @@ This document tracks who contributed to the Linux Install Fest event, what they 
   * Designed social media assets
   * Maintained visual consistency / branding
 
----
-
 ### 🛠️ Infrastructure & Tech Setup
 
 * **Christan `@Chris`**
@@ -45,8 +46,6 @@ This document tracks who contributed to the Linux Install Fest event, what they 
   * Planned and built local network setup
   * Prepared install media (USBs, ISOs)
   * Hardware coordination (routers, switches, etc.)
-
----
 
 ### 🤝 Volunteers / Day-Of Support
 
@@ -56,8 +55,6 @@ This document tracks who contributed to the Linux Install Fest event, what they 
 Names
 ```
 
----
-
 ## 📦 Contribution Areas (Cross-Team)
 
 This section helps when roles overlap.
@@ -66,22 +63,28 @@ This section helps when roles overlap.
 ```
 @kip
 ```
+
 * **Linux Support / Distros:** 
-Fedora
-ArchLinux
-KinuxMint
-Ubuntu
-Suse
-Debian
-PuppyLinux
-AlmaLinux
-POP OS
-Alpine
 ```
+Names
+```
+
+  * Fedora
+  * ArchLinux
+  * KinuxMint
+  * Ubuntu
+  * Suse
+  * Debian
+  * PuppyLinux
+  * AlmaLinux
+  * POP OS
+  * Alpine
+
 * **Outreach / Promotion:** 
 ```
 Names
 ```
+
 * **Photography / Media:** 
 ```
 Names
@@ -91,15 +94,6 @@ Names
 
 ## 🏆 Special Thanks
 
-* Library staff
-* Sponsors
-* Community partners
-
----
-
-## 🔄 How to Update
-
-* Add yourself under the relevant section(s)
-* Keep descriptions short and specific
-* Use Discord handles if possible for traceability
-* PRs welcome for updates
+  * Library staff
+  * Sponsors
+  * Community partners
