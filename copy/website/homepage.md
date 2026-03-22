@@ -170,8 +170,8 @@ We’d like to give special thanks to our active members who are volunteering th
 
 **Keywords to naturally include across the page:**
 
-* Linux install event Jacksonville
+* Jacksonville Linux install event
 * switch from Windows 11 to Linux
 * free Linux help near me
-* install Linux on laptop Florida
-* Linux user group Jacksonville Florida
+* install Linux on laptop
+* Jacksonville Linux user group
