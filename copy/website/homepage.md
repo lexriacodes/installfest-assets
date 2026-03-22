@@ -13,11 +13,15 @@ Frustrated with Windows 11? Join our free Linux install event in Jacksonville Fl
 **Free Linux Install Fest in Jacksonville Florida**
 
 Tired of Windows 11 copilot, ads, or system slowdowns?
+
 Bring your device to our **Jacksonville Linux install event** and we’ll help you switch to a faster, cleaner, more private system.
 
 **📍 Location:** University Park Branch Library - Community Room A & B
+
 **📅 Date:** May 23, 2026
+
 **⏰ Time:** 11am - 5pm
+
 **💻 Devices:** Laptops, desktops, servers, and embeded systems
 
 👉 **What to Bring**
@@ -154,9 +158,7 @@ Spots are based on volunteer availability.
 
 ---
 
-# **[H2] Footer**
-
-**Local Volunteers. Real Help. Open Tech.**
+# **[H2] Local Volunteers. Real Help. Open Tech.**
 
 This event is hosted by our local Linux User Group—a volunteer-driven community of developers, IT professionals, and everyday users who believe in open, accessible technology.
 
