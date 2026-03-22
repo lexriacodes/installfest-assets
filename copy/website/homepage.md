@@ -4,13 +4,13 @@ Switch from Windows 11 to Linux | Free Install Event
 
 # **Meta Description**
 
-Frustrated with Windows 11? Join our free Linux install event in North Florida. Bring your laptop or desktop and get help switching to Linux with local experts.
+Frustrated with Windows 11? Join our free Linux install event in Jacksonville Florida. Bring your laptop or desktop and get help switching to Linux with local experts.
 
 ---
 
 # **[H1] Ditch Windows 11. Try Linux Instead.**
 
-**Free Linux Install Fest in North Florida**
+**Free Linux Install Fest in Jacksonville Florida**
 
 Tired of Windows 11 copilot, ads, or system slowdowns?
 Bring your device to our **Jacksonville Linux install event** and we’ll help you switch to a faster, cleaner, more private system.
@@ -140,7 +140,7 @@ We’ll recommend beginner-friendly options based on your device and goals.
 
 **Local Volunteers. Real Help. Open Tech.**
 
-We’re a group of developers, IT professionals, and enthusiasts based in North Florida. We host events to make Linux more accessible to everyone—from beginners to advanced users.
+We’re a group of developers, IT professionals, and enthusiasts based in Jacksonville Florida. We host events to make Linux more accessible to everyone—from beginners to advanced users.
 
 ---
 
@@ -172,4 +172,4 @@ We’d like to give special thanks to our active members who are volunteering th
 * switch from Windows 11 to Linux
 * free Linux help near me
 * install Linux on laptop Florida
-* Linux user group North Florida
+* Linux user group Jacksonville Florida
