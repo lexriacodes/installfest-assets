@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Install Fest | Switch from Windows 11 to Linux</title>
+<meta content="Join the Jacksonville Install Fest at University Park Branch Library. Get free help switching from Windows 11 to Linux." name="description"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        .glass-header {
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+        .text-gradient {
+            background: linear-gradient(135deg, #0061a2 0%, #1098f7 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .cta-gradient {
+            background: linear-gradient(135deg, #0061a2 0%, #1098f7 100%);
+        }
+        /* Custom underline for editorial feel */
+        .editorial-underline {
+            position: relative;
+        }
+        .editorial-underline::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color: #1098f7;
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+        .editorial-underline:hover::after {
+            transform: scaleX(1);
+        }
+    </style>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-surface": "#1a1c1c",
+              "surface-container-low": "#f3f3f3",
+              "error-container": "#ffdad6",
+              "secondary-fixed": "#fadcd4",
+              "surface-container-high": "#e8e8e8",
+              "on-tertiary-fixed-variant": "#504444",
+              "surface-variant": "#e2e2e2",
+              "on-error-container": "#93000a",
+              "surface-container-highest": "#e2e2e2",
+              "surface-container-lowest": "#ffffff",
+              "on-primary": "#ffffff",
+              "secondary": "#6f5a54",
+              "tertiary-fixed": "#f1dede",
+              "surface-bright": "#f9f9f9",
+              "on-secondary-container": "#755f59",
+              "on-background": "#1a1c1c",
+              "on-primary-fixed": "#001d35",
+              "on-primary-container": "#002e50",
+              "surface-tint": "#0061a2",
+              "on-tertiary-fixed": "#23191a",
+              "primary-container": "#1098f7",
+              "error": "#ba1a1a",
+              "on-tertiary-container": "#342a2a",
+              "tertiary": "#695b5b",
+              "outline-variant": "#bfc7d4",
+              "on-secondary-fixed-variant": "#56423d",
+              "outline": "#707884",
+              "on-tertiary": "#ffffff",
+              "surface-dim": "#dadada",
+              "secondary-fixed-dim": "#dcc0b9",
+              "secondary-container": "#fadcd4",
+              "on-secondary-fixed": "#271813",
+              "background": "#f9f9f9",
+              "primary-fixed-dim": "#9dcaff",
+              "on-secondary": "#ffffff",
+              "surface-container": "#eeeeee",
+              "inverse-surface": "#2f3131",
+              "on-error": "#ffffff",
+              "surface": "#f9f9f9",
+              "on-surface-variant": "#3f4752",
+              "on-primary-fixed-variant": "#00497c",
+              "inverse-primary": "#9dcaff",
+              "primary": "#0061a2",
+              "tertiary-fixed-dim": "#d4c2c2",
+              "tertiary-container": "#a09090",
+              "inverse-on-surface": "#f1f1f1",
+              "primary-fixed": "#d1e4ff"
+            },
+            fontFamily: {
+              "headline": ["Manrope", "sans-serif"],
+              "body": ["Inter", "sans-serif"],
+              "label": ["Inter", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+</head>
+<body class="bg-surface font-body text-on-surface antialiased">
+<!-- TopNavBar -->
+<header class="fixed top-0 w-full z-50 bg-white/80 dark:bg-slate-950/80 backdrop-blur-md shadow-sm">
+<nav class="flex justify-between items-center max-w-7xl mx-auto px-6 py-4">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-3xl" style="font-variation-settings: 'FILL' 1;">terminal</span>
+<span class="text-xl font-extrabold text-slate-900 dark:text-white font-headline tracking-tight">Install Fest</span>
+</div>
+<div class="hidden md:flex items-center gap-8 font-headline font-bold tracking-tight">
+<a class="text-slate-600 dark:text-slate-400 hover:text-blue-500 transition-colors duration-200" href="#expect">What to Expect</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-blue-500 transition-colors duration-200" href="#bring">What to Bring</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-blue-500 transition-colors duration-200" href="#faq">FAQ</a>
+<a class="px-6 py-2 cta-gradient text-on-primary rounded-lg shadow-md hover:opacity-90 transition-all active:scale-95" href="#location">Get Directions</a>
+</div>
+<button class="md:hidden text-on-surface">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</nav>
+</header>
+<main class="pt-20">
+<!-- Hero Section -->
+<section class="relative overflow-hidden pt-16 pb-24 md:pt-32 md:pb-40 px-6">
+<!-- Decorative Background Shape -->
+<div class="absolute top-0 right-0 -z-10 w-1/2 h-full bg-[#decccc] opacity-30 rounded-l-full translate-x-1/4"></div>
+<div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+<div class="space-y-8">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed text-xs font-bold tracking-widest uppercase">
+<span class="material-symbols-outlined text-sm">verified</span> Jacksonville, Florida
+                    </div>
+<h1 class="font-headline text-5xl md:text-7xl font-extrabold tracking-tighter leading-[1.1] text-on-surface">
+                        Ditch Windows 11.<br/>
+<span class="text-gradient">Try Linux Instead.</span>
+</h1>
+<p class="text-xl md:text-2xl text-on-surface-variant font-medium max-w-lg">
+                        Free Linux Install Fest at University Park Branch Library. Join our community and refresh your digital life.
+                    </p>
+<div class="flex flex-wrap gap-4 pt-4">
+<button class="px-8 py-4 cta-gradient text-on-primary font-bold rounded-xl flex items-center gap-3 shadow-lg hover:shadow-primary/20 transition-all active:scale-95">
+<span class="material-symbols-outlined">calendar_add_on</span>
+                            Add to Calendar
+                        </button>
+<a class="px-8 py-4 bg-surface-container-high text-primary font-bold rounded-xl flex items-center gap-3 hover:bg-surface-container-highest transition-all" href="#location">
+<span class="material-symbols-outlined">near_me</span>
+                            Get Directions
+                        </a>
+</div>
+<!-- Event Details Bento Small -->
+<div class="grid grid-cols-2 sm:grid-cols-3 gap-4 pt-8 border-t border-outline-variant/30">
+<div>
+<p class="text-xs uppercase tracking-widest text-secondary font-bold mb-1">Date</p>
+<p class="font-headline font-bold text-lg">May 23, 2026</p>
+</div>
+<div>
+<p class="text-xs uppercase tracking-widest text-secondary font-bold mb-1">Time</p>
+<p class="font-headline font-bold text-lg">11am – 5pm</p>
+</div>
+<div class="col-span-2 sm:col-span-1">
+<p class="text-xs uppercase tracking-widest text-secondary font-bold mb-1">Room</p>
+<p class="font-headline font-bold text-lg">Comm. Room A &amp; B</p>
+</div>
+</div>
+</div>
+<div class="relative">
+<div class="aspect-square rounded-[2rem] overflow-hidden shadow-2xl rotate-3">
+<img alt="Person working on a laptop with Linux terminal interface" class="w-full h-full object-cover" data-alt="Modern close-up of a high-end laptop showing a clean Linux desktop environment with soft blue UI elements and minimalist code editor" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDXk6P4VrixzQz0LGnxFbfkaEx232MjCJNzEY5y7kCBLtUmRz2CJtM_9tOtcAw0gkE3jgUUof09EMPqnrc_x7_mD_FF7HiTbi9X6w-78rxyEc9n_U3FX0x9unghpoCKvErhiXr-wfOmdMHLdXZVc9_kq2MbJ5Ejf2rx6SKEHrH1Qy-fQBjsVF2pFf9AXWmKYq9w5aydBmTRcEmJcc1IHre4CQDIQ-Yf9KTdiSOytZ1p8qwacEFyeJvn1x4Il1wVu7xLWxt089Veyxs"/>
+</div>
+<!-- Countdown Timer Glass Card -->
+<div class="absolute -bottom-10 -left-6 md:-left-12 p-8 bg-white/80 backdrop-blur-xl rounded-2xl shadow-xl border border-white/40 max-w-sm">
+<p class="text-sm font-bold text-secondary mb-4 flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">timer</span> COUNTDOWN TO LAUNCH
+                        </p>
+<div class="flex gap-4">
+<div class="text-center">
+<span class="block text-3xl font-extrabold font-headline">42</span>
+<span class="text-[10px] font-bold uppercase tracking-widest opacity-60">Days</span>
+</div>
+<div class="text-center">
+<span class="block text-3xl font-extrabold font-headline">14</span>
+<span class="text-[10px] font-bold uppercase tracking-widest opacity-60">Hours</span>
+</div>
+<div class="text-center">
+<span class="block text-3xl font-extrabold font-headline">55</span>
+<span class="text-[10px] font-bold uppercase tracking-widest opacity-60">Mins</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Event Overview -->
+<section class="py-24 px-6 bg-surface-container-low">
+<div class="max-w-4xl mx-auto text-center space-y-6">
+<span class="text-primary font-bold tracking-[0.2em] uppercase text-sm">Empowering Your Digital Freedom</span>
+<h2 class="font-headline text-4xl md:text-5xl font-extrabold">A community-driven workshop for everyone.</h2>
+<p class="text-lg md:text-xl text-on-surface-variant leading-relaxed">
+                    Thinking about leaving Windows 11 but don't know where to start? Install Fest is a free, beginner-friendly event where experienced volunteers help you safely install and configure Linux. Whether you're a student, a professional, or just curious, we're here to guide you every step of the way.
+                </p>
+</div>
+</section>
+<!-- What to Expect: Bento Grid -->
+<section class="py-24 px-6 max-w-7xl mx-auto" id="expect">
+<div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+<div class="max-w-2xl">
+<h2 class="font-headline text-4xl md:text-5xl font-extrabold mb-4">What to Expect</h2>
+<p class="text-on-surface-variant text-lg">No technical jargon. Just helpful people and reliable software.</p>
+</div>
+</div>
+<div class="grid md:grid-cols-3 gap-6">
+<!-- Large Card -->
+<div class="md:col-span-2 bg-surface-container-lowest p-10 rounded-3xl flex flex-col justify-between group hover:bg-primary/5 transition-colors">
+<div class="mb-12">
+<div class="w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-all">
+<span class="material-symbols-outlined text-3xl">auto_fix_high</span>
+</div>
+<h3 class="font-headline text-3xl font-bold mb-4">Guided Linux Installation</h3>
+<p class="text-on-surface-variant text-lg">Work side-by-side with a mentor to install Linux on your machine. We ensure your drivers work and your data is safe before you leave.</p>
+</div>
+<div class="aspect-video w-full rounded-2xl overflow-hidden">
+<img alt="Software installation progress" class="w-full h-full object-cover" data-alt="Side view of multiple laptops on a wooden desk in a library community room with bright natural lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD39sxC-zk_Rgaf-ACxx3pDjJ8ZIdx5UoYlf4qyimgOTx7VxzZFRVycAJSeyovRq4BpKIB4KrtPGVmjPjPeL7fYkS1UZiURyj-ribkopNCx61Ivgp-15_IJe5koWpLwJG2VLAlAoH5_-SR36kqKjtx2ZwoK68ZhFwdiwYIC73sceIuXpFxGYM8O4rik52VNSd7y7dzLWryKdw4APWyRBgNMgapi-WJYvhHSmTqU5mhzYbDAmFF74OG-k27VP4iXNgqTRTjOScgZIS8"/>
+</div>
+</div>
+<!-- Secondary Cards Stack -->
+<div class="space-y-6">
+<div class="bg-surface-container-lowest p-8 rounded-3xl group hover:bg-secondary/5 transition-colors">
+<div class="w-12 h-12 rounded-xl bg-secondary/10 flex items-center justify-center mb-6 group-hover:bg-secondary group-hover:text-white transition-all">
+<span class="material-symbols-outlined">help_center</span>
+</div>
+<h3 class="font-headline text-xl font-bold mb-2">New User Help Booth</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">Confused about LibreOffice or how to browse the web? Our experts show you the ropes of your new desktop.</p>
+</div>
+<div class="bg-surface-container-lowest p-8 rounded-3xl group hover:bg-primary/5 transition-colors">
+<div class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-all">
+<span class="material-symbols-outlined">wifi</span>
+</div>
+<h3 class="font-headline text-xl font-bold mb-2">Private Network</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">High-speed, dedicated local network for lightning-fast downloads of software updates and new apps.</p>
+</div>
+<div class="bg-surface-container-lowest p-8 rounded-3xl group hover:bg-secondary/5 transition-colors">
+<div class="w-12 h-12 rounded-xl bg-secondary/10 flex items-center justify-center mb-6 group-hover:bg-secondary group-hover:text-white transition-all">
+<span class="material-symbols-outlined">memory</span>
+</div>
+<h3 class="font-headline text-xl font-bold mb-2">Reviving Older Gear</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">Don't throw it away! We specialize in making older computers run like new using lightweight Linux versions.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- What to Bring Section -->
+<section class="py-24 px-6 bg-[#decccc]/20" id="bring">
+<div class="max-w-7xl mx-auto">
+<div class="text-center mb-16">
+<h2 class="font-headline text-4xl font-extrabold mb-4">Pack Your Bags</h2>
+<p class="text-on-surface-variant max-w-xl mx-auto">To ensure a successful installation, please bring the following essential items with you.</p>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+<div class="text-center p-8 bg-white rounded-3xl shadow-sm border border-white/50">
+<div class="inline-flex w-16 h-16 rounded-full bg-surface-container-low items-center justify-center mb-6 text-primary">
+<span class="material-symbols-outlined text-4xl" style="font-variation-settings: 'FILL' 1;">laptop_mac</span>
+</div>
+<h4 class="font-headline font-bold text-lg mb-2">Your Device</h4>
+<p class="text-sm text-on-surface-variant">Laptop or desktop tower you wish to convert.</p>
+</div>
+<div class="text-center p-8 bg-white rounded-3xl shadow-sm border border-white/50">
+<div class="inline-flex w-16 h-16 rounded-full bg-surface-container-low items-center justify-center mb-6 text-primary">
+<span class="material-symbols-outlined text-4xl" style="font-variation-settings: 'FILL' 1;">electrical_services</span>
+</div>
+<h4 class="font-headline font-bold text-lg mb-2">Charger</h4>
+<p class="text-sm text-on-surface-variant">Don't forget the power cables and bricks!</p>
+</div>
+<div class="text-center p-8 bg-white rounded-3xl shadow-sm border border-white/50">
+<div class="inline-flex w-16 h-16 rounded-full bg-surface-container-low items-center justify-center mb-6 text-primary">
+<span class="material-symbols-outlined text-4xl" style="font-variation-settings: 'FILL' 1;">cloud_upload</span>
+</div>
+<h4 class="font-headline font-bold text-lg mb-2">Full Backup</h4>
+<p class="text-sm text-on-surface-variant">Back up your photos and docs to an external drive.</p>
+</div>
+<div class="text-center p-8 bg-white rounded-3xl shadow-sm border border-white/50">
+<div class="inline-flex w-16 h-16 rounded-full bg-surface-container-low items-center justify-center mb-6 text-primary">
+<span class="material-symbols-outlined text-4xl" style="font-variation-settings: 'FILL' 1;">key</span>
+</div>
+<h4 class="font-headline font-bold text-lg mb-2">Passwords</h4>
+<p class="text-sm text-on-surface-variant">Know your BIOS and Windows login passwords.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Map & Calendar Integration -->
+<section class="py-24 px-6 max-w-7xl mx-auto" id="location">
+<div class="grid md:grid-cols-2 gap-12">
+<div class="space-y-8">
+<h2 class="font-headline text-4xl font-extrabold">Where to find us.</h2>
+<div class="space-y-4">
+<div class="flex gap-4 p-6 bg-surface-container-lowest rounded-2xl">
+<span class="material-symbols-outlined text-primary text-3xl">location_on</span>
+<div>
+<h4 class="font-bold text-xl mb-1">University Park Branch Library</h4>
+<p class="text-on-surface-variant">3435 University Blvd N, Jacksonville, FL 32277</p>
+<p class="text-primary font-bold mt-2">Community Room A &amp; B</p>
+</div>
+</div>
+<div class="flex gap-4 p-6 bg-surface-container-lowest rounded-2xl">
+<span class="material-symbols-outlined text-primary text-3xl">event_available</span>
+<div>
+<h4 class="font-bold text-xl mb-1">Save the Date</h4>
+<div class="flex gap-3 mt-4">
+<button class="px-4 py-2 border-2 border-primary text-primary font-bold rounded-lg hover:bg-primary hover:text-white transition-all text-sm flex items-center gap-2">
+                                        Google Calendar
+                                    </button>
+<button class="px-4 py-2 border-2 border-primary text-primary font-bold rounded-lg hover:bg-primary hover:text-white transition-all text-sm flex items-center gap-2">
+                                        Apple iCal
+                                    </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="rounded-[2.5rem] overflow-hidden shadow-xl h-[400px] relative bg-surface-container-high">
+<!-- Map Placeholder with Location Data -->
+<img class="w-full h-full object-cover opacity-80 grayscale" data-alt="Stylized map showing University Blvd North area in Jacksonville with a highlighted library marker" data-location="Jacksonville, Florida" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAUHqpM_mmi-Gw0O1CiOn2C8cQJ-htrLCYBfRStgPP2I1KNDHzst2W42D6p0PHvkpEiBBRYevuiQmrVKoPqPMnCIdCeejlBgK8S0P-b8-JpV0txNDb-yP6WfwuoX_KGZNaUXAA4TPZrUWU-cDqhDr9sWOFHy2gjyOtf26u5nQ2-Lj6hEQbJv6QoniyzejO-9KyP6LsuQiSihwNielPACkpi80-bwBTxRfibUHZc2qqrTouy8zybBWh3j1TbFqBpe48LMYaESBnGVp8"/>
+<div class="absolute inset-0 flex items-center justify-center">
+<div class="p-8 bg-white rounded-3xl shadow-2xl text-center max-w-xs">
+<span class="material-symbols-outlined text-primary text-5xl mb-4">map</span>
+<h4 class="font-bold mb-4">Ready to navigate?</h4>
+<a class="block w-full py-3 cta-gradient text-on-primary font-bold rounded-xl" href="https://maps.google.com" target="_blank">Open in Google Maps</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FAQ Section (Accordion Style) -->
+<section class="py-24 px-6 bg-surface-container-low" id="faq">
+<div class="max-w-3xl mx-auto">
+<h2 class="font-headline text-4xl font-extrabold mb-12 text-center">Frequently Asked Questions</h2>
+<div class="space-y-4">
+<!-- FAQ Item 1 -->
+<details class="group bg-surface-container-lowest rounded-2xl border border-transparent open:border-outline-variant transition-all">
+<summary class="flex justify-between items-center p-6 cursor-pointer list-none font-bold text-lg">
+                            Will I lose my Windows files?
+                            <span class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<div class="px-6 pb-6 text-on-surface-variant leading-relaxed">
+                            No, as long as you follow our backup guide! We recommend doing a "Dual Boot" setup which allows you to keep Windows 11 and Linux on the same computer, choosing between them when you turn it on.
+                        </div>
+</details>
+<!-- FAQ Item 2 -->
+<details class="group bg-surface-container-lowest rounded-2xl border border-transparent open:border-outline-variant transition-all">
+<summary class="flex justify-between items-center p-6 cursor-pointer list-none font-bold text-lg">
+                            Is Linux hard to use for a beginner?
+                            <span class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<div class="px-6 pb-6 text-on-surface-variant leading-relaxed">
+                            Modern Linux distributions like Linux Mint or Ubuntu are very similar to Windows. You’ll have a taskbar, a start menu, and all your favorite web browsers like Chrome and Firefox.
+                        </div>
+</details>
+<!-- FAQ Item 3 -->
+<details class="group bg-surface-container-lowest rounded-2xl border border-transparent open:border-outline-variant transition-all">
+<summary class="flex justify-between items-center p-6 cursor-pointer list-none font-bold text-lg">
+                            Is this really free?
+                            <span class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<div class="px-6 pb-6 text-on-surface-variant leading-relaxed">
+                            Yes! Both the Linux operating system and the help provided by our volunteers are 100% free of charge. This is a community service event.
+                        </div>
+</details>
+<!-- FAQ Item 4 -->
+<details class="group bg-surface-container-lowest rounded-2xl border border-transparent open:border-outline-variant transition-all">
+<summary class="flex justify-between items-center p-6 cursor-pointer list-none font-bold text-lg">
+                            What version of Linux will I get?
+                            <span class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<div class="px-6 pb-6 text-on-surface-variant leading-relaxed">
+                            We primarily recommend Linux Mint for Windows 11 switchers, but we have Ubuntu, Fedora, and Pop!_OS available based on your hardware and preference.
+                        </div>
+</details>
+</div>
+</div>
+</section>
+<!-- Community Section -->
+<section class="py-24 px-6 overflow-hidden">
+<div class="max-w-7xl mx-auto">
+<div class="bg-on-surface text-surface rounded-[3rem] p-12 md:p-20 relative overflow-hidden">
+<!-- Technical Grid Texture Overlay -->
+<div class="absolute inset-0 opacity-10 pointer-events-none" style="background-image: radial-gradient(#ffffff 1px, transparent 1px); background-size: 30px 30px;"></div>
+<div class="relative z-10 grid md:grid-cols-2 gap-12 items-center">
+<div class="space-y-6">
+<span class="text-primary-fixed-dim font-bold tracking-widest uppercase text-sm">Our Local Community</span>
+<h2 class="font-headline text-4xl md:text-5xl font-extrabold leading-tight">Powered by Jacksonville LUG.</h2>
+<p class="text-surface-variant text-lg">
+                                This event is a collaboration between the Jacksonville Linux User Group (JaxLUG) and the University Park Branch Library. Our mission is to bridge the digital divide and promote open-source software as a viable, private, and secure alternative for everyone.
+                            </p>
+<div class="flex items-center gap-6 pt-6">
+<div class="flex -space-x-4">
+<div class="w-12 h-12 rounded-full border-4 border-on-surface bg-surface-container-high overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Volunteer portrait 1" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDY8W_5JIkYCI4hp92mq--gP969_-wkgAeytTcT_yWeqG7J4GZv-S-ak7JwB6XnYPdSRGSUbAV4c8pThC9iGF0EiULcdA8reoa2qkcAWwD3kj4jxPZaVPBWF2ThiJvMg19a0hLlzP6jSd2-rvNzoxgmDFB2uLk_UqUDxaP088YRsMBTBEVyfzP3yDtr-SJYv3j8aaDzsWoiPk-CKfR1gy2YmdHmLbOXSKFcscU2oyKSCRk8VY5i3quHvUNmdoR4jAZCv1TI03jJ43c"/>
+</div>
+<div class="w-12 h-12 rounded-full border-4 border-on-surface bg-surface-container-high overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Volunteer portrait 2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB0rGL0NYbPGfUzn_YQbC4hUz1ny1ufLwyWowKt29NmC-M2HqJogrJDuLEaqQuOVlPLL8Vx35SY9KT2gilvJ7cGJqhiASAiDLCI1ajpLBRQh3vg_FOmgLy7x4def_aJwHwXxw5w2x--wtWtYRgdEK3ouLbuc2JFXmy55K2GvWKjRvZKlRb7onAxDwmRhOOHUQj5M2egFdWCEpVZmo61t9I79reRk5D7t1v2_0dX3JPQOkhLPsn00lfdmeBXxO3JvCEuCSi6bKN1piQ"/>
+</div>
+<div class="w-12 h-12 rounded-full border-4 border-on-surface bg-surface-container-high overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Volunteer portrait 3" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC3NC15u5m6negTQUdFoPnmnCEw8ocmmYBxQHSd0G9bWmTh0w40aXhp8Jg28JIgIwy3PvAxat8QtD-6AGQJgu6L17aiUG0MSHF5_I-TQ_Ju9NZiGb-96kzLMyAeCKBCPwpAtu0W7lSgOuWK-NuEp2aRsZ3UUIxFCwwPd5tPsMssIla05-JN20_I1AvEkuCHSls9z6gVNSMxwVZFdTDUM26mH1kv7EPzEc2BW8_uS-OuUVkk0gvMlXRr2JRI_d78FlqzKcoJk7H9vmk"/>
+</div>
+<div class="w-12 h-12 rounded-full border-4 border-on-surface bg-primary flex items-center justify-center text-xs font-bold">
+                                        +12
+                                    </div>
+</div>
+<p class="text-sm font-medium">15+ Expert Volunteers</p>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="space-y-4">
+<div class="bg-surface-container-highest/10 p-6 rounded-2xl border border-white/10">
+<h4 class="text-3xl font-extrabold font-headline mb-1">200+</h4>
+<p class="text-surface-variant text-sm">Laptops Switched</p>
+</div>
+<div class="bg-surface-container-highest/10 p-6 rounded-2xl border border-white/10">
+<h4 class="text-3xl font-extrabold font-headline mb-1">100%</h4>
+<p class="text-surface-variant text-sm">Free Forever</p>
+</div>
+</div>
+<div class="pt-8 space-y-4">
+<div class="bg-surface-container-highest/10 p-6 rounded-2xl border border-white/10">
+<h4 class="text-3xl font-extrabold font-headline mb-1">5+</h4>
+<p class="text-surface-variant text-sm">Years Running</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-slate-50 dark:bg-slate-900 w-full py-12 px-6 mt-20 border-t border-slate-200 dark:border-slate-800">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto">
+<div class="space-y-4">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-2xl">terminal</span>
+<span class="text-lg font-bold text-slate-900 dark:text-white font-headline">Install Fest</span>
+</div>
+<p class="font-body leading-relaxed text-sm text-slate-500 dark:text-slate-400">
+                    © 2026 Install Fest. Empowering your switch from Windows 11 to Linux. Join the global movement towards open-source freedom.
+                </p>
+</div>
+<div class="space-y-4">
+<h4 class="font-bold text-slate-900 dark:text-white font-headline">Quick Links</h4>
+<ul class="space-y-2 text-sm">
+<li><a class="text-slate-500 dark:text-slate-400 hover:underline decoration-2 underline-offset-4 transition-transform hover:translate-x-1 inline-block" href="#expect">What to Expect</a></li>
+<li><a class="text-slate-500 dark:text-slate-400 hover:underline decoration-2 underline-offset-4 transition-transform hover:translate-x-1 inline-block" href="#bring">What to Bring</a></li>
+<li><a class="text-slate-500 dark:text-slate-400 hover:underline decoration-2 underline-offset-4 transition-transform hover:translate-x-1 inline-block" href="#faq">FAQ</a></li>
+<li><a class="text-slate-500 dark:text-slate-400 hover:underline decoration-2 underline-offset-4 transition-transform hover:translate-x-1 inline-block" href="#location">University Park Branch Library</a></li>
+</ul>
+</div>
+<div class="space-y-4">
+<h4 class="font-bold text-slate-900 dark:text-white font-headline">Event Location</h4>
+<p class="text-sm text-slate-500 dark:text-slate-400">
+                    3435 University Blvd N<br/>
+                    Jacksonville, FL 32277<br/>
+                    Community Room A &amp; B
+                </p>
+<div class="pt-2 flex gap-4">
+<a class="text-slate-400 hover:text-primary" href="#"><span class="material-symbols-outlined">public</span></a>
+<a class="text-slate-400 hover:text-primary" href="#"><span class="material-symbols-outlined">chat</span></a>
+<a class="text-slate-400 hover:text-primary" href="#"><span class="material-symbols-outlined">mail</span></a>
+</div>
+</div>
+</div>
+</footer>
+</body></html>
