@@ -28,7 +28,6 @@ This document tracks who contributed to the Linux Install Fest event, what they 
 * **Ramon `@R4m0n`**
 
   * Built site structure
-  * Implemented contact/booking flow
   * Managed hosting + deployment
 
 ### 🎨 Design & Marketing
@@ -38,6 +37,7 @@ This document tracks who contributed to the Linux Install Fest event, what they 
   * Created flyers (print + digital)
   * Designed social media assets
   * Maintained visual consistency / branding
+  * Implemented volunteer contact/booking form
 
 ### 🛠️ Infrastructure & Tech Setup
 
